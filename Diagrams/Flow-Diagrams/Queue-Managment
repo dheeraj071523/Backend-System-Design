@@ -1,0 +1,46 @@
+                                      +---------------+
+                                      |  Request Submission  |
+                                      |  (Submit Request to System)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Create Queue      |
+                                      |  (Create Client Queue)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Add Request to Queue  |
+                                      |  (Add Request to Client Queue)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Dequeue Request    |
+                                      |  (Retrieve Request from Queue)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Process Request    |
+                                      |  (Execute Request by Worker)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Remove from Queue  |
+                                      |  (Remove Request from Queue)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Error Handling    |
+                                      |  (Handle Queue Errors)|
+                                      +---------------+

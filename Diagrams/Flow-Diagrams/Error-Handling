@@ -1,0 +1,32 @@
+                                      +---------------+
+                                      |  Error Occurs    |
+                                      |  (System Failure/Processing Error)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Log Error        |
+                                      |  (Log Error for Debugging)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Notify Admin      |
+                                      |  (Send Error Notification)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Retry Request    |
+                                      |  (Retry Failed Request)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Return Error     |
+                                      |  (Send Error Response to User)|
+                                      +---------------+

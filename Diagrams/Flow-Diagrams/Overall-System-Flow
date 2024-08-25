@@ -1,0 +1,39 @@
+                                      +---------------+
+                                      |  User        |
+                                      |  (Login/Register)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Authentication  |
+                                      |  (Validate Credentials)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Request Submission  |
+                                      |  (Submit Request to System)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Queueing        |
+                                      |  (Add Request to Client Queue)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Processing      |
+                                      |  (Worker Process Executes Request)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Response        |
+                                      |  (Send Results to User)|
+                                      +---------------+

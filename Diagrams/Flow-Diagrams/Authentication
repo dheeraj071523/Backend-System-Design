@@ -1,0 +1,39 @@
+                                      +---------------+
+                                      |  User        |
+                                      |  (Login/Register)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Validate Credentials  |
+                                      |  (Check Username/Password)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Check User Existence  |
+                                      |  (Verify User in Database)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Generate Token      |
+                                      |  (Create Auth Token)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Return Token      |
+                                      |  (Send Auth Token to User)|
+                                      +---------------+
+                                             |
+                                             |
+                                             v
+                                      +---------------+
+                                      |  Error Handling    |
+                                      |  (Handle Invalid Credentials)|
+                                      +---------------+

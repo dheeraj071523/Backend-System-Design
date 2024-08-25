@@ -1,0 +1,40 @@
+{
+  "name": "backend-system-design",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha 'src/tests/**/*.test.js' --timeout 5000"
+  },
+  "mocha": {
+    "extension": [
+      "js"
+    ],
+    "spec": "src/tests/**/*.test.js",
+    "timeout": 5000,
+    "require": [
+      "dotenv/config"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "bcrypt": "^5.1.1",
+    "bull": "^4.16.0",
+    "chai-http": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.4",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
